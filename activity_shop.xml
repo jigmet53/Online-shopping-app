@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="4"
+    android:columnCount="4"
+    android:background="@drawable/ji"
+    android:id="@+id/ii"
+
+
+
+
+
+    tools:context=".MainActivity">
+
+
+
+
+
+
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:id="@+id/i1"
+        android:layout_height="0dp"
+        android:src="@drawable/j1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:scaleType="centerCrop"
+        android:onClick="click"
+
+
+
+        />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:id="@+id/i2"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:onClick="click"
+        android:src="@drawable/j2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+
+        />
+    <ImageButton
+        android:layout_width="0dp"
+        android:id="@+id/i3"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:onClick="click"
+        android:src="@drawable/j3"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+
+        />
+
+
+
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:onClick="click"
+        android:id="@+id/i4"
+        android:src="@drawable/j4"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+
+        />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/i5"
+        android:src="@drawable/j5"
+        android:layout_rowWeight="1"
+        android:scaleType="centerCrop"
+        android:onClick="click"
+
+        android:layout_columnWeight="1"
+
+        />
+    <ImageButton
+        android:layout_width="0dp"
+        android:id="@+id/i6"
+        android:onClick="click"
+        android:layout_height="0dp"
+        android:src="@drawable/j6"
+        android:scaleType="centerCrop"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+
+
+        />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:id="@+id/i7"
+        android:layout_height="0dp"
+        android:src="@drawable/j7"
+        android:layout_columnWeight="1"
+        android:scaleType="centerCrop"
+        android:onClick="click"
+        android:layout_rowWeight="1"
+
+        />
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:id="@+id/i8"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/j8"
+        android:onClick="click"
+
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+
+        />
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/i9"
+        android:src="@drawable/j9"
+        android:layout_rowWeight="1"
+        android:scaleType="centerCrop"
+        android:onClick="click"
+        android:layout_columnWeight="1"
+
+        />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+      android:id="@+id/i10"
+       android:text="Back"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="bottom"
+
+        android:scaleType="centerCrop"
+        android:onClick="click"
+        android:layout_columnWeight="1"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</GridLayout>
